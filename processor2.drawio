@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2021-05-24T07:27:52.019Z" agent="5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/84.0.4147.89 Safari/537.36 SLBrowser/7.0.0.4071 SLBChan/3" etag="iyCSQUoy4LCcIrhbfj9F" version="14.6.13" type="github">
+<mxfile host="app.diagrams.net" modified="2021-05-24T07:29:28.013Z" agent="5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/84.0.4147.89 Safari/537.36 SLBrowser/7.0.0.4071 SLBChan/3" etag="TZdibEK2xODv5ITW3jE8" version="14.6.13" type="github">
   <diagram id="mHrBLoBE_nKFGg-nJntb" name="Page-1">
     <mxGraphModel dx="1476" dy="984" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="0" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -242,8 +242,8 @@
         </mxCell>
         <mxCell id="O-riVDPIGo2HMmUdeqhT-67" value="" style="endArrow=none;dashed=1;html=1;" parent="1" edge="1">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
-            <mxPoint x="1000" y="-201" as="sourcePoint" />
-            <mxPoint x="1000" y="584.6347920496323" as="targetPoint" />
+            <mxPoint x="1011" y="-202.82" as="sourcePoint" />
+            <mxPoint x="1011" y="582.8147920496323" as="targetPoint" />
           </mxGeometry>
         </mxCell>
         <mxCell id="O-riVDPIGo2HMmUdeqhT-68" value="&lt;font style=&quot;font-size: 15px&quot;&gt;IF取指阶段&lt;/font&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="1" vertex="1">
@@ -274,12 +274,13 @@
             </Array>
           </mxGeometry>
         </mxCell>
-        <mxCell id="vRmsqFVDpQx5lh7Q_dCB-3" value="" style="endArrow=classic;html=1;entryX=0.25;entryY=1;entryDx=0;entryDy=0;exitX=0.25;exitY=1;exitDx=0;exitDy=0;" parent="1" source="O-riVDPIGo2HMmUdeqhT-19" target="vRmsqFVDpQx5lh7Q_dCB-1" edge="1">
+        <mxCell id="vRmsqFVDpQx5lh7Q_dCB-3" value="" style="endArrow=classic;html=1;entryX=0.25;entryY=1;entryDx=0;entryDy=0;exitX=1;exitY=0.75;exitDx=0;exitDy=0;" parent="1" source="O-riVDPIGo2HMmUdeqhT-19" target="vRmsqFVDpQx5lh7Q_dCB-1" edge="1">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
             <mxPoint x="945" y="402" as="sourcePoint" />
             <mxPoint x="660" y="425" as="targetPoint" />
             <Array as="points">
-              <mxPoint x="953" y="464" />
+              <mxPoint x="1003" y="194" />
+              <mxPoint x="1003" y="464" />
               <mxPoint x="656" y="464" />
             </Array>
           </mxGeometry>
