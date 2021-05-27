@@ -1,6 +1,6 @@
-<mxfile host="app.diagrams.net" modified="2021-05-18T15:17:56.683Z" agent="5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/84.0.4147.89 Safari/537.36 SLBrowser/7.0.0.4071 SLBChan/3" etag="DlAVbK2gujsDYoeLz1C9" version="14.6.13" type="github">
+<mxfile host="app.diagrams.net" modified="2021-05-27T14:39:46.691Z" agent="5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/84.0.4147.89 Safari/537.36 SLBrowser/7.0.0.4071 SLBChan/3" etag="0zvl-yl5FA1qE75Q_cwb" version="14.7.2" type="github">
   <diagram id="L02j20gpewqh90BASpDN" name="Page-1">
-    <mxGraphModel dx="1230" dy="479" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="1490" dy="584" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -13,7 +13,7 @@
         <mxCell id="3DGLfrmvFGQZwuoJj4eW-3" value="rs1和rs2分别被放入乘数寄存器和乘数寄存器，同时将乘积寄存器清0" style="rounded=0;whiteSpace=wrap;html=1;align=left;" parent="1" vertex="1">
           <mxGeometry x="360" y="350" width="120" height="70" as="geometry" />
         </mxCell>
-        <mxCell id="3DGLfrmvFGQZwuoJj4eW-4" value="将乘积加是哪个被乘数，并将结果写入乘积寄存器" style="rounded=0;whiteSpace=wrap;html=1;align=left;" parent="1" vertex="1">
+        <mxCell id="3DGLfrmvFGQZwuoJj4eW-4" value="将乘积加上个被乘数，并将结果写入乘积寄存器" style="rounded=0;whiteSpace=wrap;html=1;align=left;" parent="1" vertex="1">
           <mxGeometry x="220" y="550" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="3DGLfrmvFGQZwuoJj4eW-5" value="乘数寄存器右移一位" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
@@ -206,67 +206,67 @@
             <mxPoint x="420" y="1346" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="tNeuTn14e5VUx5YZv8z4-3" value="通过sbt编译cpu对应的chisel项目，得到对应的verilog代码" style="rounded=0;whiteSpace=wrap;html=1;align=left;" vertex="1" parent="1">
+        <mxCell id="tNeuTn14e5VUx5YZv8z4-3" value="通过sbt编译cpu对应的chisel项目，得到对应的verilog代码" style="rounded=0;whiteSpace=wrap;html=1;align=left;" parent="1" vertex="1">
           <mxGeometry x="258" y="2206" width="120" height="48" as="geometry" />
         </mxCell>
-        <mxCell id="tNeuTn14e5VUx5YZv8z4-4" value="&lt;span style=&quot;text-align: center&quot;&gt;将verilog代码、测试框架代码以及nemu对应的动态链接库进行编译，编译得到可执行文件VsimTop&lt;/span&gt;" style="rounded=0;whiteSpace=wrap;html=1;align=left;" vertex="1" parent="1">
+        <mxCell id="tNeuTn14e5VUx5YZv8z4-4" value="&lt;span style=&quot;text-align: center&quot;&gt;将verilog代码、测试框架代码以及nemu对应的动态链接库进行编译，编译得到可执行文件VsimTop&lt;/span&gt;" style="rounded=0;whiteSpace=wrap;html=1;align=left;" parent="1" vertex="1">
           <mxGeometry x="224" y="2375" width="120" height="105" as="geometry" />
         </mxCell>
-        <mxCell id="tNeuTn14e5VUx5YZv8z4-12" value="" style="endArrow=classic;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="tNeuTn14e5VUx5YZv8z4-3">
+        <mxCell id="tNeuTn14e5VUx5YZv8z4-12" value="" style="endArrow=classic;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" parent="1" source="tNeuTn14e5VUx5YZv8z4-3" edge="1">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
             <mxPoint x="444" y="2635" as="sourcePoint" />
             <mxPoint x="424" y="2295" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="tNeuTn14e5VUx5YZv8z4-20" value="将.c文件通过riscv gcc编译成使用riscv指令集的二进制汇编文件。" style="rounded=0;whiteSpace=wrap;html=1;align=left;" vertex="1" parent="1">
+        <mxCell id="tNeuTn14e5VUx5YZv8z4-20" value="将.c文件通过riscv gcc编译成使用riscv指令集的二进制汇编文件。" style="rounded=0;whiteSpace=wrap;html=1;align=left;" parent="1" vertex="1">
           <mxGeometry x="145" y="2086" width="120" height="70" as="geometry" />
         </mxCell>
-        <mxCell id="tNeuTn14e5VUx5YZv8z4-21" value="" style="endArrow=classic;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="tNeuTn14e5VUx5YZv8z4-20" target="tNeuTn14e5VUx5YZv8z4-3">
+        <mxCell id="tNeuTn14e5VUx5YZv8z4-21" value="" style="endArrow=classic;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" parent="1" source="tNeuTn14e5VUx5YZv8z4-20" target="tNeuTn14e5VUx5YZv8z4-3" edge="1">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
             <mxPoint x="444" y="2518" as="sourcePoint" />
             <mxPoint x="424" y="2178" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="tNeuTn14e5VUx5YZv8z4-22" value="是否是退出指令？" style="rhombus;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="tNeuTn14e5VUx5YZv8z4-22" value="是否是退出指令？" style="rhombus;whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="188.5" y="2965" width="181" height="80" as="geometry" />
         </mxCell>
-        <mxCell id="tNeuTn14e5VUx5YZv8z4-23" value="" style="endArrow=classic;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="tNeuTn14e5VUx5YZv8z4-22" target="tNeuTn14e5VUx5YZv8z4-24">
+        <mxCell id="tNeuTn14e5VUx5YZv8z4-23" value="" style="endArrow=classic;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" parent="1" source="tNeuTn14e5VUx5YZv8z4-22" target="tNeuTn14e5VUx5YZv8z4-24" edge="1">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
             <mxPoint x="252" y="3178" as="sourcePoint" />
             <mxPoint x="249" y="3074" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="tNeuTn14e5VUx5YZv8z4-24" value="结束" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="tNeuTn14e5VUx5YZv8z4-24" value="结束" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="219" y="3077" width="120" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="tNeuTn14e5VUx5YZv8z4-26" value="开始" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="tNeuTn14e5VUx5YZv8z4-26" value="开始" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="219" y="2611" width="120" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="tNeuTn14e5VUx5YZv8z4-27" value="执行命令./VsimTop xxx.bin，运行测试框架，并读取二进制汇编文件。" style="rounded=0;whiteSpace=wrap;html=1;align=left;" vertex="1" parent="1">
+        <mxCell id="tNeuTn14e5VUx5YZv8z4-27" value="执行命令./VsimTop xxx.bin，运行测试框架，并读取二进制汇编文件。" style="rounded=0;whiteSpace=wrap;html=1;align=left;" parent="1" vertex="1">
           <mxGeometry x="193.5" y="2725" width="171" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="tNeuTn14e5VUx5YZv8z4-28" value="通过向cpu发出时钟信号，模拟cpu的运行，直到接收到valid信号，即cpu完成了一条指令的执行。同时令nemu也执行一条指令。" style="rounded=0;whiteSpace=wrap;html=1;align=left;" vertex="1" parent="1">
+        <mxCell id="tNeuTn14e5VUx5YZv8z4-28" value="通过向cpu发出时钟信号，模拟cpu的运行，直到接收到valid信号，即cpu完成了一条指令的执行。同时令nemu也执行一条指令。" style="rounded=0;whiteSpace=wrap;html=1;align=left;" parent="1" vertex="1">
           <mxGeometry x="176" y="2841" width="206" height="68" as="geometry" />
         </mxCell>
-        <mxCell id="tNeuTn14e5VUx5YZv8z4-31" value="" style="endArrow=classic;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="tNeuTn14e5VUx5YZv8z4-26" target="tNeuTn14e5VUx5YZv8z4-27">
+        <mxCell id="tNeuTn14e5VUx5YZv8z4-31" value="" style="endArrow=classic;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" parent="1" source="tNeuTn14e5VUx5YZv8z4-26" target="tNeuTn14e5VUx5YZv8z4-27" edge="1">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
             <mxPoint x="301" y="2863" as="sourcePoint" />
             <mxPoint x="351" y="2813" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="tNeuTn14e5VUx5YZv8z4-32" value="" style="endArrow=classic;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="tNeuTn14e5VUx5YZv8z4-27" target="tNeuTn14e5VUx5YZv8z4-28">
+        <mxCell id="tNeuTn14e5VUx5YZv8z4-32" value="" style="endArrow=classic;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" parent="1" source="tNeuTn14e5VUx5YZv8z4-27" target="tNeuTn14e5VUx5YZv8z4-28" edge="1">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
             <mxPoint x="301" y="2863" as="sourcePoint" />
             <mxPoint x="351" y="2813" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="tNeuTn14e5VUx5YZv8z4-33" value="" style="endArrow=classic;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="tNeuTn14e5VUx5YZv8z4-28" target="tNeuTn14e5VUx5YZv8z4-22">
+        <mxCell id="tNeuTn14e5VUx5YZv8z4-33" value="" style="endArrow=classic;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" parent="1" source="tNeuTn14e5VUx5YZv8z4-28" target="tNeuTn14e5VUx5YZv8z4-22" edge="1">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
             <mxPoint x="301" y="2863" as="sourcePoint" />
             <mxPoint x="351" y="2813" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="tNeuTn14e5VUx5YZv8z4-34" value="" style="endArrow=classic;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0.5;entryY=1;entryDx=0;entryDy=0;" edge="1" parent="1" source="tNeuTn14e5VUx5YZv8z4-22" target="tNeuTn14e5VUx5YZv8z4-35">
+        <mxCell id="tNeuTn14e5VUx5YZv8z4-34" value="" style="endArrow=classic;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0.5;entryY=1;entryDx=0;entryDy=0;" parent="1" source="tNeuTn14e5VUx5YZv8z4-22" target="tNeuTn14e5VUx5YZv8z4-35" edge="1">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
             <mxPoint x="459" y="3013" as="sourcePoint" />
             <mxPoint x="509" y="2963" as="targetPoint" />
@@ -275,19 +275,19 @@
             </Array>
           </mxGeometry>
         </mxCell>
-        <mxCell id="tNeuTn14e5VUx5YZv8z4-35" value="比较cpu和nemu的寄存器信息以及PC的值" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="tNeuTn14e5VUx5YZv8z4-35" value="比较cpu和nemu的寄存器信息以及PC的值" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="441" y="2841" width="120" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="tNeuTn14e5VUx5YZv8z4-36" value="" style="endArrow=classic;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="tNeuTn14e5VUx5YZv8z4-35" target="tNeuTn14e5VUx5YZv8z4-37">
+        <mxCell id="tNeuTn14e5VUx5YZv8z4-36" value="" style="endArrow=classic;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" parent="1" source="tNeuTn14e5VUx5YZv8z4-35" target="tNeuTn14e5VUx5YZv8z4-37" edge="1">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
             <mxPoint x="587" y="2875" as="sourcePoint" />
             <mxPoint x="637" y="2825" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="tNeuTn14e5VUx5YZv8z4-37" value="输出发生错误的寄存器信息、正确的信息以及该指令的地址" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="tNeuTn14e5VUx5YZv8z4-37" value="输出发生错误的寄存器信息、正确的信息以及该指令的地址" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="621" y="2841" width="120" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="tNeuTn14e5VUx5YZv8z4-38" value="" style="endArrow=classic;html=1;exitX=0.5;exitY=0;exitDx=0;exitDy=0;" edge="1" parent="1" source="tNeuTn14e5VUx5YZv8z4-35">
+        <mxCell id="tNeuTn14e5VUx5YZv8z4-38" value="" style="endArrow=classic;html=1;exitX=0.5;exitY=0;exitDx=0;exitDy=0;" parent="1" source="tNeuTn14e5VUx5YZv8z4-35" edge="1">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
             <mxPoint x="486" y="2841" as="sourcePoint" />
             <mxPoint x="279" y="2802" as="targetPoint" />
@@ -296,16 +296,16 @@
             </Array>
           </mxGeometry>
         </mxCell>
-        <mxCell id="tNeuTn14e5VUx5YZv8z4-39" value="存在不同" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+        <mxCell id="tNeuTn14e5VUx5YZv8z4-39" value="存在不同" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="1" vertex="1">
           <mxGeometry x="564" y="2847" width="52" height="20" as="geometry" />
         </mxCell>
-        <mxCell id="tNeuTn14e5VUx5YZv8z4-40" value="相同" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+        <mxCell id="tNeuTn14e5VUx5YZv8z4-40" value="相同" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="1" vertex="1">
           <mxGeometry x="378" y="2804" width="40" height="20" as="geometry" />
         </mxCell>
-        <mxCell id="tNeuTn14e5VUx5YZv8z4-41" value="是" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+        <mxCell id="tNeuTn14e5VUx5YZv8z4-41" value="是" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="1" vertex="1">
           <mxGeometry x="287" y="3051" width="40" height="20" as="geometry" />
         </mxCell>
-        <mxCell id="tNeuTn14e5VUx5YZv8z4-42" value="否" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+        <mxCell id="tNeuTn14e5VUx5YZv8z4-42" value="否" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="1" vertex="1">
           <mxGeometry x="425" y="2981" width="40" height="20" as="geometry" />
         </mxCell>
       </root>
